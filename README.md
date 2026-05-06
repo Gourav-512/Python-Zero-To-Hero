@@ -1,10 +1,13 @@
 # 🐍 Python Zero To Hero
 
-A comprehensive learning repository to master Python from **beginner to advanced** level in just 10 days!
-
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/Gourav-512/Python-Zero-To-Hero?style=flat-square)
+![GitHub Stars](https://img.shields.io/github/stars/Gourav-512/Python-Zero-To-Hero?style=flat-square)
+![Repository Size](https://img.shields.io/github/repo-size/Gourav-512/Python-Zero-To-Hero?style=flat-square)
+
+A comprehensive learning repository to master Python from **beginner to advanced** level in just 10 days!
 
 ---
 
@@ -71,12 +74,14 @@ Open `10_DAYS_PYTHON_LEARNING_SERIES.md` and follow the curriculum!
 
 ### Main Curriculum
 - 📖 **[10 Days Python Learning Series](./10_DAYS_PYTHON_LEARNING_SERIES.md)** - Complete step-by-step guide
+- 🎖️ **[Badges Guide](./BADGES_GUIDE.md)** - Learn how to add badges to your projects
 
 ### Directory Structure
 ```
 Python-Zero-To-Hero/
 ├── README.md (this file)
 ├── 10_DAYS_PYTHON_LEARNING_SERIES.md (main curriculum)
+├── BADGES_GUIDE.md (badges tutorial)
 ├── Day-1/
 │   ├── basics.py
 │   └── exercises/
