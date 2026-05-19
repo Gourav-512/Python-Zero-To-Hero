@@ -1,46 +1,35 @@
-#6 . time obj
+# Improved Time Module Examples with better comments and structure
 
 import datetime as dt
-time1=dt.time(11, 20,30,2000) #micro seconds Will not Showing excced M & S !
-print(time1)
 
+# 1. Creating time objects
+print("=== Time Objects ===")
+time1 = dt.time(11, 20, 30, 2000)
+print("Time:", time1)
+print("Hour:", time1.hour)
+print("Minute:", time1.minute)
+print("Second:", time1.second)
+print("Microsecond:", time1.microsecond)
+print()
 
-#7.
-import datetime as dt
-time1=dt.time(11, 20,30,2000)
-print("hour" , time1.hour)
-#print("M" , time.M)
-#print("S" , time.S)
-#print("MS" , time.MS)
+# 2. Current datetime and operations
+print("=== Current DateTime ===")
+current = dt.datetime.now()
+print("Current:", current)
+print("Date:", current.date())
+print("Time:", current.time())
+print()
 
-
-#8.
-import datetime as dt
-CT =dt.datetime.now()
-#print(CT)
-print(CT.hour)
-#Print(CT.minute)
-#Print(CT.second)
-#Print(CT.microsecond)
-
-
-#9
-#import datetime as dt
-#CDT=dt.datetime.now()
-#PD=dt.datetime(1,1,2000)
-#rem_D=(CDT-PD)
-#print("The diff is :- ".rem_D)
-
+# 3. Timedelta calculations
+print("=== Timedelta Examples ===")
 one_week = dt.timedelta(days=7)
-next_week =  CT + one_week
-print("next_week :- ", next_week)
+next_week = current + one_week
+past_week = current - one_week
+print("Next week:", next_week)
+print("Past week:", past_week)
+print()
 
-one_week = dt.timedelta(days=7)
-past_date =  CT - one_week
-print("past_date :- ", past_date)
-
-
-print(help(dt))
-
-
-
+# 4. Formatting dates
+print("=== Formatted Dates ===")
+print("Formatted:", current.strftime("%Y-%m-%d %H:%M:%S"))
+print("ISO Format:", current.isoformat())
