@@ -72,5 +72,5 @@ Choose and build:
 - Contribute to 1 open source Python repo
 
 **You've made it! Share your progress and projects. You're now a Python Hero!** 🐍🚀
-
-*Added using Grok assistance*
+## Best Resource :-
+**@GFG 
