@@ -35,6 +35,7 @@ print(f"Name: {name}, Age: {age}, GPA: {gpa}, Student: {is_student}")
 ```
 
 **Resources:**
+_websites:- 
 - Python Official Documentation: https://docs.python.org/3/
 - Interactive Python Tutorial: https://www.python.org/about/gettingstarted/
 
