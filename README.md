@@ -3,6 +3,7 @@
 # Python Zero to Hero 🐍
 
 Complete **30-Day Python Mastery Roadmap** from basics to advanced.
+Full Python course
 
 ## 📁 What's Inside
 
