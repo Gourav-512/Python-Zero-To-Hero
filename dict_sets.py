@@ -12,6 +12,8 @@ print('Student:', student)
 print('Name:', student['name'])
 print('Skills:', student.get('skills'))
 
+
+
 # Update and add
 student['age'] = 26
 student['city'] = 'Baramati'
